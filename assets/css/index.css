@@ -22,8 +22,8 @@ header {
 }
 
 .nav-bar img {
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
     margin-left: -250px;    
 }
 .nav-bar li {
@@ -275,4 +275,40 @@ header {
     width: 200px;
     height: 270px;
     border: 1px solid #d9d9d9;
+}
+
+
+footer{
+    margin-top: 15%;
+    background-color: #E72913;
+    bottom: 0;
+    left: 0;
+}
+.footer-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-bar img{
+    width: 45px;
+    height: 45px;
+}
+
+.footer-bar  a, .footer-bar p{
+    color: #ffff;
+    margin: 5px;
+    font-weight: 600;
+}
+.footer-bar a{
+    margin: 10px;
+}
+.redessociais{
+    margin-left: 20px;
+}
+.burocracia{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.logo {
+    margin-left: -95px;
 }
