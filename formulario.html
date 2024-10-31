@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Compra</title>
+    <link rel="stylesheet" href="assets/css/formulario.css">
+</head>
+<body>
+    <div class="banner">
+        <div class="form-container"> 
+            <form action="">
+                <div class="form-group">
+                    <label for="">Nome Completo:</label>
+                    <input id="name" type="text" placeholder="Digite seu nome">
+                </div>
+                <div class="form-group">
+                    <label for="">Email:</label>
+                    <input type="email" id="email" placeholder="Digite seu email">
+                </div>
+
+
+                <div class="form-group">
+                    <label for="address">Endereço:</label>
+                    <input type="text" id="endereco" name="endereco" placeholder="Endereço Completo">
+                </div>
+                <div class="form-group">
+                    <label for="paymentMethod">Forma de Pagamento:</label>
+                    <select id="paymentMethod" name="paymentMethod" required>
+                        <option selected> Tipo de cartão: </option>
+                        <option value="credit">Cartão de Crédito</option>
+                        <option value="debit">Cartão de Débito</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="cardNumber">Número do Cartão:</label>
+                    <input type="text" id="cardNumber" name="cardNumber" placeholder="0000 0000 0000 0000" required>
+                </div>
+                <div class="form-group">
+                    <label for="expiryDate">Data de Validade:</label>
+                    <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/AA" required>
+                    <label for="cvv">CVV:</label>
+                    <input type="text" id="cvv" name="cvv" placeholder="CVV" required>
+                </div>
+                    <div id="botao"><button type="submit" class="submit-btn">Finalizar Compra</button></div>
+                    <div id="botao"><button><a href="index.html">Voltar para página inicial</a></button></div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

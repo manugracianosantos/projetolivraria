@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.banner{
+    display: flex;
+    background-color: #E72913;
+    justify-content: center;
+    align-items: center;
+    height: 645px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 8px;
+    width: 98%;
+    height: 96%;
+}
+form {
+    width: 95%;
+    height: 95%;
+    margin-top: 50px;
+}
+.form-group {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+}
+label {
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Poppins', 'Arial';
+    color: rgb(48, 48, 48);
+    margin-bottom: 5px;
+}
+input, select {
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #E72913;
+    width: 100%;
+    font-size: 15px;
+}
+::placeholder {
+    font-size: 18px;
+}
+select, select option {
+    font-size: 18px;
+    color: grey;
+}
+button {
+    padding: 12px;
+    font-size: 20px;
+    border: none;
+    width: 75%;
+    background-color: #E72913;
+    color: #ffff;
+    font-weight: 600;
+    border-radius: 15px;
+    cursor: pointer;
+}
+button a {
+    text-decoration: none;
+    color: #ffff;
+}
+#endereco {
+    width: 40%;
+}
+#botao{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+#paymentMethod {
+    width: 35%;
+}
+#cardNumber {
+    width: 25%;
+}
+#expiryDate {
+    width: 10%;
+}
+#cvv {
+    width: 5%;
+}
+#email {
+    width:30% ;
+}
+#name {
+    width: 60%;
+}

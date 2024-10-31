@@ -164,3 +164,115 @@ header {
     font-family: 'Poppins', 'Arial';
 }
 
+.shopping {
+    height: 859px;
+}
+
+.barradepesquisa{
+    display: flex;
+    background-color: #E72913;
+    padding: 1px;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+
+}
+.barradepesquisa input[type="text"]{
+    padding: 10px;
+    width: 650px;
+    border: none;
+    border-radius: 15px;
+    font-size: 13px;
+}
+.barradepesquisa .pesquisar button img {
+    width: 20px;
+    height: 20px;
+}
+
+.barradepesquisa .pesquisar button {
+    margin: 0; 
+    margin-top: 3px;
+    border-radius: 15px;
+    padding: 5px;
+    border: 1px solid #d9d9d9;
+    align-items: center;
+    background: none;
+    cursor: pointer; 
+}
+.barradepesquisa .pesquisar form {
+    width: 720px;
+    margin-left: 300px;
+}
+.barradepesquisa .carrinhodecompras button {
+    margin: 0; 
+    margin-top: 5px;
+    border-radius: 15px;
+    padding: 5px;
+    border: none;
+    align-items: center;
+    background: none;
+    cursor: pointer; 
+}
+.barradepesquisa .carrinhodecompras img {
+    width: 35px;
+    height: 35px;
+    margin-left: 65px;
+}
+
+
+
+
+
+
+
+
+.shopping .second-carousel {
+    display: flex;
+    overflow: hidden;
+    max-width: 100%; 
+}
+.shopping .second-carousel .two-card {
+    margin: 45px;
+}
+.shopping .second-carousel .two-card .conteudo {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+    border: 3px solid #d9d9d9;
+    border-radius: 5px;
+    padding: 15px;
+    width: 210px;
+    height: 390px;
+
+}
+.shopping .second-carousel .two-card .conteudo button  a {
+    text-decoration: none;
+    color: white;
+}
+.shopping .second-carousel .two-card .conteudo h1 {
+    font-size: 15px;
+    width: 200px;
+    font-family: 'Poppins', 'Arial';
+
+}
+.shopping .second-carousel .two-card .conteudo h2 { 
+    font-size: 13px;
+    width: 200px;
+    font-family: 'Poppins', 'Arial';
+}
+.shopping .second-carousel .two-card .conteudo button {
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    width: 200px;
+    background-color: #E72913;
+    color: #ffff;
+    font-weight: 600;
+    border-radius: 15px;
+}
+.shopping .second-carousel .two-card .conteudo img{
+    width: 200px;
+    height: 270px;
+    border: 1px solid #d9d9d9;
+}
