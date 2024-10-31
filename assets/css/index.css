@@ -1,0 +1,166 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: #E72913;
+    font-family: 'Poppins', 'Arial';
+}
+
+.nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.nav-bar img {
+    width: 25px;
+    height: 25px;
+    margin-left: -250px;    
+}
+.nav-bar li {
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+    /* topo | direita | inferior | esquerda */
+}
+.nav-bar li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+
+
+
+
+
+
+.aboutus {
+    display: flex;
+    align-items: center;
+}
+.aboutus .img-side img {
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+}
+
+.aboutus .txt-side {
+    width: 650px;
+    margin: auto;
+}
+.aboutus .txt-side h1 {
+    color: #E72913;
+    font-family: 'Gentium Book', 'Serif';
+    font-size: 2.5rem;
+}
+.aboutus .txt-side h2 {
+    font-weight: 200;
+    font-size: 0.95em;
+    font-family: 'Poppins', 'Arial';
+}
+.aboutus .txt-side p {
+    font-family: 'Poppins', 'Arial';
+    font-size: 1em;
+}
+
+.aboutus .img-side {
+    width: 500px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+.aboutus .img-side .phrase {
+    position: relative;
+    margin-top: -50px;
+    display: flex;
+    background-color: #E72913;
+    padding: 15px;
+    width: 280px;
+    justify-content: center;
+    border-radius: 15px;
+    font-family: 'Poppins',  'Arial';
+    font-weight: 600;
+    color: white;
+}
+.services {
+    background-color: #E72913;
+    display: flex;
+    margin-top: 6.4%;   
+    height: 645px;  
+    align-items: center;
+}
+.services .txt-side {
+    width: 450px;
+    margin: auto;
+}
+.services .txt-side button {
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    width: 390px;
+}
+.services .txt-side button a {
+    text-decoration: none;
+    font-size: 2.5em;
+    font-weight: 600;
+    font-family: 'Gentium Book', 'Serif';
+    color: #E72913;
+}
+.services .txt-side h1 {
+    color: white;
+    font-size: 2.5rem;
+}
+.services .carousel {
+    display: flex;
+    overflow: hidden;
+    max-width: 850px; 
+}
+.services .carousel .card {
+    color: white;
+    width: 450px;
+    min-height: 300px;
+    border: 6px solid #b41f0e;
+    border-radius: 25px;
+    padding: 10px;
+    margin-right: 35px;
+}
+.slick-prev {
+    left: 10px; /* Ajuste para manter a seta à esquerda dentro do contêiner */
+}
+.slick-prev, .slick-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1; /* Coloca as setas acima do conteúdo do carrossel */
+    background: rgba(0,0,0,0.5); /* Fundo semitransparente para as setas */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.slick-next {
+    right: 10px; /* Ajuste para manter a seta à direita dentro do contêiner */
+}
+.services .carousel .card p {
+    font-size: 26px;
+    font-family: 'Poppins', 'Arial';
+}
+.services .carousel .card h2 {
+    font-size: 22px;
+    font-family: 'Poppins', 'Arial';
+}
+

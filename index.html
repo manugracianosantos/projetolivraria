@@ -4,8 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/index.css">
+
+    <link rel="stylesheet" href="assets/slick/slick.css" />
+    <link rel="stylesheet" href="assets/slick/slider-theme.css" />
+
+    <script src="assets/slick/jquery.js"> </script>
+    <script src="assets/slick/jquery-migrate.js"> </script>
+    <script src="assets/slick/slick.js"></script>
+
+    <script src="assets/js/index.js"></script>
     <title>Sweet Read</title>
 </head>
 
@@ -13,10 +22,10 @@
     <div class="container">
         <header>
             <nav class="nav-bar">
-                <a href=""><img src="images/logo.png" alt="logo da empresa, um livro"></a>
+                <a href=""><img src="assets/images/logo.png" alt="logo da empresa, um livro"></a>
                 <ul>
                     <li> <a href="#aboutuspage"> Sobre nós </a></li>
-                    <li> <a href="#"> Serviços </a></li>
+                    <li> <a href="#servicespage"> Serviços </a></li>
                     <li> <a href="#"> Compras </a></li>
                 </ul>
             </nav>
@@ -34,14 +43,42 @@
                     </p>
                 </div>
                 <div class="img-side">
-                    <img src="images/livraria.jpg" alt="Foto do estabelecimento">
+                    <img src="assets/images/livraria.jpg" alt="Foto do estabelecimento">
                     <div class="phrase">
                         <p> Aqui a leitura encontra a doçura! </p>
                     </div>
                 </div>
             </div>
+            <div class="services" id="servicespage">
+                <div class="txt-side">
+                    <h1>
+                        Depoimentos de Nossos Leitores: Descubra Algumas Experiências com nossa livraria!
+                    </h1>
+                    <button><a href=""> Compre também! </a></button>
+                </div>
+
+                <div class="carousel js-slider">
+                    <div class="card">
+                        <img src="assets/images/quotation.png" alt="">
+                        <p>A Sweet Read tem prateleiras cheias, um aroma acolhedor e uma equipe dedicada."</p>
+                        <h2>CARINA, SÃO PAULO</h2>
+                    </div>
+                    <div class="card">
+                        <img src="assets/images/quotation.png" alt="">
+                        <p>A Sweet Read é um refúgio onde posso relaxar e encontrar boas leituras. A cada visita, descubro algo novo."</p>
+                        <h2>FERNANDO, RIO DE JANEIRO</h2>
+                    </div>
+                    <div class="card">
+                        <img src="assets/images/quotation.png" alt="">
+                        <p>O ambiente é incrível e acolhedor! Os livros parecem me chamar e sempre saio de lá com uma ótima indicação."</p>
+                        <h2>MIRELA, MINAS GERAIS</h2>
+                    </div>
+                    
+                </div>
+            </div>
         </main>
     </div>
+    <script src="assets/js/index.js"></script>
 </body>
 
 </html>
